@@ -1,35 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:Maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Vistas.Mapa"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout BackgroundColor="White">
+    <StackLayout>
         <StackLayout VerticalOptions="StartAndExpand"
-                     Padding="12"
-                     BackgroundColor="White">
-            <Maps:Map WidthRequest="700"
-                      HeightRequest="690"
-                      x:Name="Mymap"
-                      MapType="Street" />
+                     Padding="12">
+            <WebView x:Name="mapWeb"
+                     HeightRequest="700"></WebView>
         </StackLayout>
-        <Grid Margin="0,0,0,0"
-              ColumnDefinitions="*,*"
-              BackgroundColor="Black"
-              RowSpacing="0"
-              ColumnSpacing="2">
-            <ImageButton Source="https://i.ibb.co/jG6PjsZ/se-al.png"
-                         Grid.Column="0"
-                         HeightRequest="80"
-                         BackgroundColor="white"
-                         Margin="0,2,0,0"
-                         x:Name="btnVolver"
-                         Clicked="btnVolver_Clicked" />
-            <ImageButton Source="https://i.ibb.co/SxFkgWx/marcador-de-mapa.png"
-                         Grid.Column="1"
-                         HeightRequest="105"
-                         BackgroundColor="white"
-                         Margin="0,2,0,0" />
-        </Grid>
+        <StackLayout VerticalOptions="End">
+            <Grid ColumnDefinitions="*,*,*"
+                  BackgroundColor="Black"
+                  RowSpacing="0"
+                  ColumnSpacing="3">
+                <ImageButton Source="https://i.ibb.co/hsB69Tz/grafico.png"
+                             Grid.Column="0"
+                             HeightRequest="105"
+                             BackgroundColor="#3F4A5C"
+                             Margin="0,2,0,0"
+                             x:Name="btnStats"
+                             Clicked="btnStats_Clicked" />
+                <ImageButton Source="https://i.ibb.co/jG6PjsZ/se-al.png"
+                             Grid.Column="1"
+                             HeightRequest="105"
+                             BackgroundColor="#3F4A5C"
+                             Margin="0,2,0,0"
+                             x:Name="btnDireccionamiento"
+                             Clicked="btnDireccionamiento_Clicked" />
+                <ImageButton Source="https://i.ibb.co/SxFkgWx/marcador-de-mapa.png"
+                             Grid.Column="2"
+                             HeightRequest="105"
+                             BackgroundColor="#52789C"
+                             Margin="0,2,0,0" />
+            </Grid>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
