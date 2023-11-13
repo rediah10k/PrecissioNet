@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,9 +22,14 @@ namespace App1.Vistas
 			Navigation.PushAsync(new Configuracion());
         }
 
-        private void btnDireccionamiento_Clicked(object sender, EventArgs e)
+        private void btnMapa_Clicked(object sender, EventArgs e)
         {
 			Navigation.PushAsync(new Mapa());
+        }
+
+        private void btnStats_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Stats());
         }
     }
 }
