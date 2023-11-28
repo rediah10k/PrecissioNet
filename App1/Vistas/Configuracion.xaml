@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Vistas.Configuracion"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Background="White">
+        <ImageButton Source="https://i.ibb.co/Gd9ypb6/atras.png"
+                     HorizontalOptions="Start"
+                     BackgroundColor="White"
+                     HeightRequest="60"
+                     x:Name="btnVolver"
+                     Clicked="btnVolver_Clicked" />
+        
+        <StackLayout Margin="20,20,0,0"
+                     HorizontalOptions="Start">
+            <Button Text="Ajustes"
+                    TextTransform="None"
+                    ImageSource="configuraciones.png"
+                    HeightRequest="100"
+                    FontSize="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    ContentLayout="Left, 20"
+                    BackgroundColor="White" />
+        </StackLayout>
+        <StackLayout Margin="20,0,0,0"
+                     HorizontalOptions="Start">
+            <Button Text="Acerca De"
+                    TextTransform="None"
+                    ImageSource="informacion.png"
+                    HeightRequest="100"
+                    FontSize="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    ContentLayout="Left, 20"
+                    BackgroundColor="White" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

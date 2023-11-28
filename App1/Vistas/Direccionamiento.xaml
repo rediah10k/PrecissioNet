@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Vistas.Direccionamiento"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout BackgroundColor="white">
+        <StackLayout VerticalOptions="StartAndExpand">
+            <ImageButton Source="https://i.ibb.co/Wg7fVNb/configuraciones.png"
+                         HeightRequest="50"
+                         WidthRequest="50"
+                         HorizontalOptions="Start"
+                         Margin="20,20,0,0"
+                         BackgroundColor="White"
+                         x:Name="btnConfiguracion"
+                         Clicked="btnConfiguracion_Clicked" />
+            <Image Source="https://i.ibb.co/4ttbQZ2/ubicacion.png"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,30,0,0" />
+            <Label Text="En este momento estas cerca de uno de los puntos de mejor cobertura."
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,20,0,0"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center" />
+            <Image Source="https://i.ibb.co/yNDPYf1/flecha-arriba.png"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,40,0,0" />
+            <Label Text="45 m"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,30,0,0"
+                   FontSize="50"
+                   HorizontalTextAlignment="Center" />
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Grid ColumnDefinitions="*,*,*"
+                  BackgroundColor="Black"
+                  RowSpacing="0"
+                  ColumnSpacing="3"
+                  Margin="0,0,0,0">
+                <ImageButton Source="https://i.ibb.co/hsB69Tz/grafico.png"
+                             Grid.Column="0"
+                             HeightRequest="105"
+                             BackgroundColor="#3F4A5C"
+                             Margin="0,2,0,0"
+                             x:Name="btnStats"
+                             Clicked="btnStats_Clicked" />
+                <ImageButton Source="https://i.ibb.co/jG6PjsZ/se-al.png"
+                             Grid.Column="1"
+                             HeightRequest="105"
+                             BackgroundColor="#52789C"
+                             Margin="0,2,0,0" />
+                <ImageButton Source="https://i.ibb.co/SxFkgWx/marcador-de-mapa.png"
+                             Grid.Column="2"
+                             HeightRequest="105"
+                             BackgroundColor="#3F4A5C"
+                             Margin="0,2,0,0"
+                             x:Name="btnMapa"
+                             Clicked="btnMapa_Clicked" />
+            </Grid>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
