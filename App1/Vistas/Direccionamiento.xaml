@@ -24,7 +24,7 @@
                    Margin="0,20,0,0"
                    FontSize="30"
                    HorizontalTextAlignment="Center" />
-            <Image Source="flecha-arriba.png"
+            <Image Source="flechaIzq.png"
                    HeightRequest="150"
                    HorizontalOptions="Center"
                    Margin="0,40,0,0" />
@@ -49,12 +49,12 @@
                              Margin="0,2,0,0"
                              x:Name="btnStats"
                              Clicked="btnStats_Clicked" />
-                <ImageButton Source="señal.png"
+                <ImageButton Source="signal.png"
                              Grid.Column="1"
                              HeightRequest="105"
                              BackgroundColor="#52789C"
                              Margin="0,2,0,0" />
-                <ImageButton Source="marcador-de-mapa.png"
+                <ImageButton Source="marcadorDeMapa.png"
                              Grid.Column="2"
                              HeightRequest="105"
                              BackgroundColor="#3F4A5C"
