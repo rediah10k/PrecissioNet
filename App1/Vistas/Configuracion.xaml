@@ -4,7 +4,7 @@
              x:Class="App1.Vistas.Configuracion"
              NavigationPage.HasNavigationBar="False">
     <StackLayout Background="White">
-        <ImageButton Source="https://i.ibb.co/Gd9ypb6/atras.png"
+        <ImageButton Source="atras.png"
                      HorizontalOptions="Start"
                      BackgroundColor="White"
                      HeightRequest="60"
