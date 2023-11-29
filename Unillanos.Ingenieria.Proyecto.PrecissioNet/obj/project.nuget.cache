@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "V7n3h0eaooayUIr+2USECNblR4USxxzax90Zmv522A412AbQW6WA0iwLtUR/mzRyDsuFjCV6kto8mY+GjANJgw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hjara\\Downloads\\App1\\App1\\Unillanos.Ingenieria.Proyecto.PrecissioNet\\Unillanos.Ingenieria.Proyecto.PrecissioNet.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}

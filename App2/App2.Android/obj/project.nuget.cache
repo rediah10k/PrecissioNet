@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "AgRLI2+hNuPJ13tHO81Ny3GkrpjlVxuRRfUsJnfhMbkrNXidvjqE97iicXtqvVS1lN1w6/c5E9IzKg3KLUeM0Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hjara\\Downloads\\App1\\App1\\App2\\App2.Android\\App2.Android.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "Xamarin.AndroidX.AppCompat"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "Xamarin.AndroidX.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "Xamarin.AndroidX.CustomView"
+    }
+  ]
+}
